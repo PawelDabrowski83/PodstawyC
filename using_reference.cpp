@@ -30,3 +30,7 @@ int main()
 
 }
 
+/*
+referencji używa się dla bezpośredniego dostępu do wartości zmiennych oraz żeby oszczędzić pamięć na kopiowaniu (przy wywołaniu funkcji)
+*/
+
