@@ -44,12 +44,8 @@ void printVector(std::vector<double> vect) {
 
 int main()
 {
-    Point a1{ 0, 4 };
-    Point a2{ 4, 1 };
-    Point b1{ -6, 3 };
-    Point b2{ 6, -2 };
-    Rect a{ a1, a2 };
-    Rect b{ b1, b2 };
+    Rect a{ Point{0, 4 }, Point{4,1} };
+    Rect b{ Point{-6, 3}, Point{6, 2} };
     Rect c{ Point {-7, 4}, Point{8, -4} };
     Rect rects[] = { a, b, c };
     size_t size = 3;
